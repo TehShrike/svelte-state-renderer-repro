@@ -1,0 +1,19 @@
+{
+  "name": "svelte-state-router-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t [ sveltify --extensions [ .html ] ] index.js -d -o build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abstract-state-router": "5.15.0",
+    "browserify": "14.1.0",
+    "svelte": "1.13.1",
+    "svelte-state-renderer": "1.1.0",
+    "sveltify": "1.0.3"
+  }
+}
